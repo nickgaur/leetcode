@@ -15,8 +15,7 @@ static List<String> letterCombinations(String digits){
         List<String> list = new ArrayList<>();
         return list;
     }
-    List<String> result = letterCombinations2(digits);
-    return result;
+    return (letterCombinations2(digits));
 }
     
     static List<String> letterCombinations2(String digits) {
@@ -35,7 +34,6 @@ static List<String> letterCombinations(String digits){
         for(int i=0; i<strKeys.length(); i++){
             List<String> returnedList = letterCombinations2(remString);
             for(String elem: returnedList){
-                // System.out.println(elem);
                 result.add(strKeys.charAt(i) + elem);
             }
         }
