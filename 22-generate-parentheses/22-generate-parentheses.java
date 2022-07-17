@@ -1,31 +1,20 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        return generateParenthesis2(n, "", 0, 0);
+        List<String> list = new ArrayList<>();
+        generateParenthesis2(n, "", 0, 0, list);
+        return list;
     }
     
-    static List<String> generateParenthesis2(int n, String currString, int opening, int closing) {
+    static void generateParenthesis2(int n, String currString, int opening, int closing, List<String> list) {
         if (currString.length() == 2*n) {
-            ArrayList<String> list = new ArrayList<>();
             list.add(currString);
-            return list;
+            return ;
         }
-        List<String> result = new ArrayList<>();
-        List<String> finalResult = new ArrayList<>();
         if (opening < n) {
-            List<String> returnedList = generateParenthesis2(n, currString + "(", opening + 1, closing);
-            for(String elem: returnedList){
-                result.add(elem);
-            }
+            generateParenthesis2(n, currString + "(", opening + 1, closing, list);
         }
         if (closing < opening) {
-            List<String> returnedList2 = generateParenthesis2(n, currString + ")", opening, closing + 1);
-            for(String elem: returnedList2){
-                result.add(elem);
-            }
+            generateParenthesis2(n, currString + ")", opening, closing + 1, list);
         }
-        for(String elem: result){
-            finalResult.add(elem);
-        }
-        return result;
     }
 }
