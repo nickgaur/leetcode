@@ -2,21 +2,21 @@ class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         vector<int> res{};
-        map<int, int> hashMap{};
-        for(int i=0;i<nums1.size(); i++){
-            auto it = hashMap.find(nums1[i]);
-            if(it == hashMap.end()){
-                hashMap[nums1[i]] = 1;
+        sort(nums1.begin(), nums1.end());
+        sort(nums2.begin(), nums2.end());
+        int p = 0;
+        int q  = 0;
+        while(p < nums1.size() && q < nums2.size()){
+            if(nums1[p] == nums2[q]){
+                res.push_back(nums1[p]);
+                p++;
+                q++;
+            }
+            else if(nums1[p] < nums2[q]){
+                p++;
             }
             else{
-                hashMap[nums1[i]]++;
-            }
-        }
-         for(int i=0;i<nums2.size(); i++){
-            auto it = hashMap.find(nums2[i]);
-            if(it != hashMap.end() && hashMap[nums2[i]] != 0){
-                res.push_back(nums2[i]);
-                hashMap[nums2[i]]--;
+                q++;
             }
         }
         return res;
