@@ -3,8 +3,7 @@ public:
     int firstUniqChar(string s) {
         map <char, int> hashmap;
         for(int i=0; i<s.length(); i++){
-            auto it = hashmap.find(s[i]);
-            if(it != hashmap.end()){
+            if(hashmap[s[i]]){
                 hashmap[s[i]] = hashmap[s[i]] + 1;
             }
             else{
