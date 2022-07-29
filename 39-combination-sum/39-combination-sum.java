@@ -7,16 +7,14 @@ class Solution {
             return result;
         }
         
-        if(sum > target){
-            return result;
-        }
-        
         // SMALL PROBLEM
         for(int i=index; i<candidates.length; i++){
-            List<List<Integer>> returnedList = solve(candidates,sum + candidates[i],i                    ,target);
+            if(sum + candidates[i] <= target){
+                List<List<Integer>> returnedList = solve(candidates,sum + candidates[i],i                    ,target);
             for(List<Integer> t: returnedList){
                 t.add(candidates[i]);
                 result.add(t);
+            }
             }
         }
         return result;
