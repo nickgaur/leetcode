@@ -4,16 +4,16 @@ public:
         int res{0};
         int count{1};
         for(int i=1; i<arr.size(); i++){
+            if(count == 0){
+                res = i;
+            }
             if(arr[i] == arr[res]){
                 count++;
             }
             else {
                 count--;
             }
-            if(count == 0){
-                res = i;
-                count = 1;
-            }
+            
         }
         count = 0;
         for(int i=0; i<arr.size(); i++){
