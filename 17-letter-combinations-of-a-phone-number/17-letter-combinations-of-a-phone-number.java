@@ -10,33 +10,29 @@ class Solution {
             "pqrs",
             "tuv",
             "wxyz" };
-static List<String> letterCombinations(String digits){
-    if(digits.length() == 0) {
-        List<String> list = new ArrayList<>();
-        return list;
-    }
-    return (letterCombinations2(digits));
-}
     
-    static List<String> letterCombinations2(String digits) {
-
+    public List<String> letterCombinations(String digits){
         if(digits.length() == 0){
-            List<String> list = new ArrayList<>();
-            list.add("");
-            return list;
+            return new ArrayList<>();    
         }
-
-        char singleChar = digits.charAt(0);
-        int digit = singleChar - '0';
-        String strKeys = keys[digit];
+        return letterCombinations2(digits);
+    }
+    
+    public List<String> letterCombinations2(String digits) {
+        List<String> finalList = new ArrayList<>();
+        
+        if(digits.length() == 0){
+            finalList.add("");
+            return finalList;
+        }
+        int firstLetter = digits.charAt(0) - '0';
         String remString = digits.substring(1);
-        List<String> result = new ArrayList<>();
-        for(int i=0; i<strKeys.length(); i++){
-            List<String> returnedList = letterCombinations2(remString);
-            for(String elem: returnedList){
-                result.add(strKeys.charAt(i) + elem);
+        List <String> returnedList = letterCombinations2(remString);
+        for(String str: returnedList){
+            for(int i=0; i < (keys[firstLetter]).length(); i++){
+                finalList.add(keys[firstLetter].charAt(i) + str);
             }
         }
-        return result;
+        return finalList;
     }
 }
