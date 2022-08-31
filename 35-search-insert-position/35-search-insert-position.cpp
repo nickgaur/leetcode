@@ -15,6 +15,15 @@ public:
             if(nums[mid] == target){
                 return mid;
             }
+            else if(nums[low] < target && nums[low+1] > target ){
+                return low+1;
+            }
+            else if(nums[high-1] < target && nums[high] > target ){
+                return high;
+            }
+            else if(nums[mid] < target && nums[mid + 1] > target ){
+                return mid + 1;
+            }
             else if(target < nums[mid]){
                 high = mid - 1;
             }
@@ -22,6 +31,6 @@ public:
                 low = mid + 1;
             }
         }
-        return low;
+        return 0;
     }
 };
