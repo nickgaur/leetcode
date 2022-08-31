@@ -2,13 +2,7 @@ class SubrectangleQueries {
 public:
     vector<vector<int>> res;
     SubrectangleQueries(vector<vector<int>>& rectangle) {
-        for(auto i: rectangle){
-            vector<int>vec;
-            for(auto j: i){
-                vec.push_back(j);
-            }
-            res.push_back(vec);
-        }
+        res = rectangle;
     }
     
     void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
