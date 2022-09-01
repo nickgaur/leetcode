@@ -10,7 +10,7 @@ class Solution {
         // SMALL PROBLEM
         for(int i=index; i<candidates.length; i++){
             if(sum + candidates[i] <= target){
-                List<List<Integer>> returnedList = solve(candidates,sum + candidates[i],i                    ,target);
+                List<List<Integer>> returnedList = solve(candidates,sum + candidates[i],i,target);
             for(List<Integer> t: returnedList){
                 t.add(candidates[i]);
                 result.add(t);
