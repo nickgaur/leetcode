@@ -14,13 +14,13 @@ class Solution {
     
     // TABULATION
     static int tabulation(int n){
-        int cache[] = new int[n+2];
-        cache[0] = 0;
+        int cache[] = new int[n+1];
+        cache[0] = 1;
         cache[1] = 1;
         for(int i=2; i < cache.length; i++){
             cache[i] = cache[i-1] + cache[i-2];
         }
-        return cache[n+1];
+        return cache[n];
     }
     public int climbStairs(int n) {
         // int cache[] = new int[n+2];
