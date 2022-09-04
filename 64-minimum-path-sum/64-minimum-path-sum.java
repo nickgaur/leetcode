@@ -18,7 +18,7 @@ class Solution {
             cache[i][j] = Math.max(t,s) + grid[i][j];
             return cache[i][j];
         }
-        cache[i][j] = Math.min(t,s)+grid[i][j];
+        cache[i][j] = x + grid[i][j];
         return cache[i][j];
     }
     public int minPathSum(int[][] grid) {
