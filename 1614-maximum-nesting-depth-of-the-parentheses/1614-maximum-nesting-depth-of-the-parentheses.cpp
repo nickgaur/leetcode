@@ -5,9 +5,6 @@ public:
         int closing{0};
         int maxDepth = 0;
         for(int i=0; i<s.length(); i++){
-            // if(i == s.length() - 1 || (s[i] != '(' && s[i] != ')')){
-            //     maxDepth = max(opening - closing, maxDepth);
-            // }
             if(s[i] == '('){
                 opening++;
             }
