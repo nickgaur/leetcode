@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        int i=0;
         vector<string> strsCopy{strs};
         map<string, int> Map;
         vector<vector<string>> result{};
