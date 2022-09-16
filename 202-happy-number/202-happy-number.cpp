@@ -1,25 +1,22 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        if(n == 1){
-            return true;
-        }
-        int t = n;
-        
-        while(t > 3){
+        map<int, int> mp;
+        while(n > 0){
             int sum {0};
-            while(t > 0){
-                sum += pow(t % 10, 2);
-                t /= 10;
+            while(n > 0){
+                sum += pow(n % 10, 2);
+                n /= 10;
             }
             if(sum == 1){
                 return true;
             }
-            if(sum == 4){
+            if(mp[sum]){
                 return false;
             }
-            t = sum;
+            mp[sum]++;
+            n = sum;
         }
-        return false;
+        return true;
     }
 };
