@@ -1,31 +1,23 @@
 class Solution {
-    public int calPoints(String[] operations) {
+    public int calPoints(String[] ops) {
         Stack<Integer> stk = new Stack<>();
-        for(int i=0; i < operations.length; i++){
-            if(operations[i].length() != 1){
-                int t = Integer.parseInt(operations[i]);
-                stk.push(t);
+        for(String str: ops){
+            if(str.equals("+")){
+                int prev = stk.pop();
+                int sum = prev + stk.peek();
+                stk.push(prev);
+                stk.push(sum);
             }
-            else{
-                char ch = operations[i].charAt(0);
-                if(Character.isDigit(ch)){
-                    int t = Integer.parseInt(operations[i]);
-                    stk.push(t);
-                }
-                else if(ch == 'C'){
-                    stk.pop();
-                }
-                else if(ch == 'D'){
-                    int temp = stk.peek();
-                    stk.push(2*temp);
-                }
-                else {
-                    int prev = stk.peek();
-                    stk.pop();
-                    int prev2 = stk.peek();
-                    stk.push(prev);
-                    stk.push(prev + prev2);
-                }
+            else if(str.equals("C")){
+                stk.pop();
+            }
+            else if(str.equals("D")){
+                int temp = stk.peek();
+                stk.push(2 * stk.peek());
+            }
+            else {
+                // int t = Integer.valueOf(str);
+                stk.push(Integer.valueOf(str));
             }
         }
         int count = 0;
