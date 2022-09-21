@@ -22,17 +22,15 @@ public:
                 res = ch + t;
                 result.push_back(res);
             }
+            return result;
         }
-        else{
-            char ch = s[i];
-            res+=ch;
-            vector<string>returnedList = solve(s, i+1);
-            for(auto t: returnedList){
-                res = ch + t;
-                result.push_back(res);
-            }
+        char ch = s[i];
+        res+=ch;
+        vector<string>returnedList = solve(s, i+1);
+        for(auto t: returnedList){
+            res = ch + t;
+            result.push_back(res);
         }
-        
         return result;
     }
     
