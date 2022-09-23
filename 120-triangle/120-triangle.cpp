@@ -25,8 +25,11 @@ public:
         if(triangle.size() == 1){
             return triangle[0][0];
         }
-        vector<vector<int>> cache(triangle.size(), vector<int> (triangle.size(), -1));
-        int t = solve(triangle, 0, 1, cache);
-        return triangle[0][0] + t;
+        
+        int n = triangle.size();
+        
+        vector<vector<int>> cache(n, vector<int> (n, -1));
+        
+        return triangle[0][0] + solve(triangle, 0, 1, cache);
     }
 };
