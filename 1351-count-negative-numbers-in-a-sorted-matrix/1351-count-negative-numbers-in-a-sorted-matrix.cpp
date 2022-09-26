@@ -6,9 +6,7 @@ public:
             int low = 0;
             int high = g.size() - 1;
             while(low <= high){
-                
                 int mid = low + (high - low)/2;
-                
                 if(mid == 0 && g[mid] < 0){
                     count += g.size();
                 }
@@ -18,7 +16,8 @@ public:
                 }
                 else if (g[mid] >= 0) {
                     low = mid + 1;
-                } else {
+                }
+                else {
                     high = mid - 1;
                 }
             }
