@@ -9,8 +9,9 @@ public:
                 int mid = low + (high - low)/2;
                 if(mid == 0 && g[mid] < 0){
                     count += g.size();
+                    break;
                 }
-                if (mid != 0 && g[mid] < 0 && g[mid - 1] >= 0) {
+                else if (mid != 0 && g[mid] < 0 && g[mid - 1] >= 0) {
                     count += g.size() - mid;
                     break;
                 }
