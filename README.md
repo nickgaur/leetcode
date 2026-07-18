@@ -22,4 +22,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/nickgaur/leetcode/tree/master/0066-plus-one) |
+| [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
+## Simulation
+|  |
+| ------- |
+| [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 <!---LeetCode Topics End-->
