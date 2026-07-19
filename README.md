@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/nickgaur/leetcode/tree/master/0134-gas-station) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/nickgaur/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/nickgaur/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 ## Stack
 |  |
 | ------- |
@@ -45,4 +47,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
+## Sorting
+|  |
+| ------- |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/nickgaur/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+## Counting Sort
+|  |
+| ------- |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/nickgaur/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 <!---LeetCode Topics End-->
