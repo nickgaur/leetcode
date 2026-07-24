@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/nickgaur/leetcode/tree/master/0014-longest-common-prefix) |
 | [0027-remove-element](https://github.com/nickgaur/leetcode/tree/master/0027-remove-element) |
+| [0035-search-insert-position](https://github.com/nickgaur/leetcode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/nickgaur/leetcode/tree/master/0066-plus-one) |
 | [0134-gas-station](https://github.com/nickgaur/leetcode/tree/master/0134-gas-station) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/nickgaur/leetcode/tree/master/0035-search-insert-position) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Bit Manipulation
 |  |
