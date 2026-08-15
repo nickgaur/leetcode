@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/nickgaur/leetcode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/nickgaur/leetcode/tree/master/0035-search-insert-position) |
+| [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/nickgaur/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/nickgaur/leetcode/tree/master/0066-plus-one) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/nickgaur/leetcode/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/nickgaur/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0088-merge-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
@@ -65,10 +67,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
 ## Sorting
 |  |
@@ -100,4 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/nickgaur/leetcode/tree/master/0073-set-matrix-zeroes) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
