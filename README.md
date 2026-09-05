@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/nickgaur/leetcode/tree/master/0056-merge-intervals) |
+| [0059-spiral-matrix-ii](https://github.com/nickgaur/leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0066-plus-one](https://github.com/nickgaur/leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/nickgaur/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0088-merge-sorted-array) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/nickgaur/leetcode/tree/master/0059-spiral-matrix-ii) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 ## Greedy
 |  |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/nickgaur/leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/nickgaur/leetcode/tree/master/0073-set-matrix-zeroes) |
 ## Dynamic Programming
 |  |
