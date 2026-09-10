@@ -3,32 +3,33 @@ class Solution {
         int n = chars.length;
         int idx = 0;
         int count = 1;
-        String res = "";
+        // String res = "";
+        StringBuilder sb = new StringBuilder();
         for (int i = 1; i < n; i++) {
             if(chars[i] == chars[i-1]){
                 count++;
             }
             else{
                 if(count > 1){
-                    res = res + String.valueOf(chars[i-1]) + count;
+                    sb.append(String.valueOf(chars[i-1]) + count);
                 }
                 else{
-                    res = res + String.valueOf(chars[i-1]);
+                    sb.append(String.valueOf(chars[i-1]));
                 }
                 count = 1;
             }
         }
         if(count > 1){
-            res = res + String.valueOf(chars[n-1]) + count;
+           sb.append(String.valueOf(chars[n-1]) + count);
         }
         else{
-            res += String.valueOf(chars[n-1]);
+            sb.append(String.valueOf(chars[n-1]));
         }
         
-        for(int i = 0; i < res.length(); i++){
-            chars[i] = res.charAt(i);
+        for(int i = 0; i < sb.length(); i++){
+            chars[i] = sb.charAt(i);
         }
         
-        return res.length();
+        return sb.length();
     }
 }
