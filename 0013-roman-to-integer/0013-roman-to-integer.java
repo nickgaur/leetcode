@@ -11,22 +11,21 @@ class Solution {
 
         int res = 0;
         int n = s.length();
-        if(n == 1){
-            return map.get(s.charAt(0));
-        }
 
-        for (int i = 0; i < s.length()-1; i++) {
+        for (int i = 0; i < n; i++) {
+            if (i != n - 1) {
             int currentCh = map.get(s.charAt(i));
             int nextCh = map.get(s.charAt(i + 1));
-            if (currentCh < nextCh) {
-                res = res + nextCh - currentCh;
-                i++;
-            } else {
-                res = res + map.get(s.charAt(i));
+                if (currentCh < nextCh) {
+                    res = res + nextCh - currentCh;
+                    i++;
+                } else {
+                    res = res + map.get(s.charAt(i));
+                }
             }
-        }
-        if(map.get(s.charAt(n-1)) <= map.get(s.charAt(n-2))){
-            res = res + map.get(s.charAt(n-1));
+            else{
+                res += map.get(s.charAt(i));
+            }
         }
 
         return res;
