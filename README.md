@@ -48,12 +48,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0342-power-of-four](https://github.com/nickgaur/leetcode/tree/master/0342-power-of-four) |
 ## Math
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/nickgaur/leetcode/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/nickgaur/leetcode/tree/master/0066-plus-one) |
 | [0263-ugly-number](https://github.com/nickgaur/leetcode/tree/master/0263-ugly-number) |
+| [0342-power-of-four](https://github.com/nickgaur/leetcode/tree/master/0342-power-of-four) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 ## Simulation
 |  |
@@ -142,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/nickgaur/leetcode/tree/master/0020-valid-parentheses) |
+## Recursion
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/nickgaur/leetcode/tree/master/0342-power-of-four) |
 <!---LeetCode Topics End-->
