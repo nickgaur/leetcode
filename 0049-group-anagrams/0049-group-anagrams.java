@@ -30,15 +30,10 @@ class Solution {
             char[] charArray = strs[i].toCharArray();
             Arrays.sort(charArray);
             String str = new String(charArray);
-            if (map.containsKey(str)) {
-                List<String> list = map.get(str);
-                list.add(strs[i]);
-                map.put(str, list);
-            } else {
-                List<String> list = new ArrayList<>();
-                list.add(strs[i]);
-                map.put(str, list);
+            if (!map.containsKey(str)) {
+                map.put(str, new ArrayList<>());
             }
+            map.get(str).add(strs[i]);
         }
         List<List<String>> result = new ArrayList<>();
         for (String str : map.keySet()) {
