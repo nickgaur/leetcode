@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/nickgaur/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
 | [0766-toeplitz-matrix](https://github.com/nickgaur/leetcode/tree/master/0766-toeplitz-matrix) |
+| [0867-transpose-matrix](https://github.com/nickgaur/leetcode/tree/master/0867-transpose-matrix) |
 | [1089-duplicate-zeros](https://github.com/nickgaur/leetcode/tree/master/1089-duplicate-zeros) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/nickgaur/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/nickgaur/leetcode/tree/master/1380-lucky-numbers-in-a-matrix) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/nickgaur/leetcode/tree/master/0059-spiral-matrix-ii) |
+| [0867-transpose-matrix](https://github.com/nickgaur/leetcode/tree/master/0867-transpose-matrix) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 ## Greedy
 |  |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/nickgaur/leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/nickgaur/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0766-toeplitz-matrix](https://github.com/nickgaur/leetcode/tree/master/0766-toeplitz-matrix) |
+| [0867-transpose-matrix](https://github.com/nickgaur/leetcode/tree/master/0867-transpose-matrix) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/nickgaur/leetcode/tree/master/1380-lucky-numbers-in-a-matrix) |
 ## Dynamic Programming
 |  |
