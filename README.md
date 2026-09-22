@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/nickgaur/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0707-design-linked-list](https://github.com/nickgaur/leetcode/tree/master/0707-design-linked-list) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -172,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/nickgaur/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Linked List
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/nickgaur/leetcode/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
