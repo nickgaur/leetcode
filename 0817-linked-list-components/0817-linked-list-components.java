@@ -20,16 +20,13 @@ class Solution {
         while (curr != null) {
             if (set.contains(curr.val)) {
                 len++;
-            } else {
-                if (len > 0) {
+                if (len == 1) {
                     res++;
                 }
+            } else {
                 len = 0;
             }
             curr = curr.next;
-        }
-        if (len > 0) {
-            res++;
         }
         return res;
     }
