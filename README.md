@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/nickgaur/leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0088-merge-sorted-array) |
+| [0141-linked-list-cycle](https://github.com/nickgaur/leetcode/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/nickgaur/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/nickgaur/leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/nickgaur/leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/nickgaur/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0141-linked-list-cycle](https://github.com/nickgaur/leetcode/tree/master/0141-linked-list-cycle) |
 | [0242-valid-anagram](https://github.com/nickgaur/leetcode/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/nickgaur/leetcode/tree/master/0141-linked-list-cycle) |
 | [0707-design-linked-list](https://github.com/nickgaur/leetcode/tree/master/0707-design-linked-list) |
 | [0817-linked-list-components](https://github.com/nickgaur/leetcode/tree/master/0817-linked-list-components) |
 ## Quicksort
@@ -212,4 +215,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/nickgaur/leetcode/tree/master/0005-longest-palindromic-substring) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/nickgaur/leetcode/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
