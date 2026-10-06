@@ -10,7 +10,7 @@
  */
 class Solution {
     static ListNode helper(ListNode head, int k){
-        if(k <= 0 || head == null || head.next == null){
+        if(k <= 0){
             return head;
         }
         ListNode curr = head;
@@ -25,15 +25,14 @@ class Solution {
     }
     public ListNode rotateRight(ListNode head, int k) {
         int n = 0;
-        if(head == null){
-            return head;
-        }
         ListNode curr = head;
         while(curr != null){
             curr = curr.next;
             n++;
         }
-        
+        if(head == null || n == 1){
+            return head;
+        }
         return helper(head, k%n);
     }
 }
