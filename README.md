@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-lucky-numbers-in-a-matrix](https://github.com/nickgaur/leetcode/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1394-find-lucky-integer-in-an-array](https://github.com/nickgaur/leetcode/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1572-matrix-diagonal-sum](https://github.com/nickgaur/leetcode/tree/master/1572-matrix-diagonal-sum) |
+| [1861-rotating-the-box](https://github.com/nickgaur/leetcode/tree/master/1861-rotating-the-box) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nickgaur/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/nickgaur/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/nickgaur/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/nickgaur/leetcode/tree/master/0443-string-compression) |
 | [1089-duplicate-zeros](https://github.com/nickgaur/leetcode/tree/master/1089-duplicate-zeros) |
+| [1861-rotating-the-box](https://github.com/nickgaur/leetcode/tree/master/1861-rotating-the-box) |
 | [2000-reverse-prefix-of-word](https://github.com/nickgaur/leetcode/tree/master/2000-reverse-prefix-of-word) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nickgaur/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/nickgaur/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/nickgaur/leetcode/tree/master/0867-transpose-matrix) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/nickgaur/leetcode/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/nickgaur/leetcode/tree/master/1572-matrix-diagonal-sum) |
+| [1861-rotating-the-box](https://github.com/nickgaur/leetcode/tree/master/1861-rotating-the-box) |
 ## Dynamic Programming
 |  |
 | ------- |
