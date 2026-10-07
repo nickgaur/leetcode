@@ -1,4 +1,5 @@
 class Solution {
+    private final int mod = 1000000007;
     public int rangeSum(int[] nums, int n, int left, int right) {
         int sumArr[] = new int[n * (n + 1) / 2];
         int idx = 0;
@@ -12,14 +13,9 @@ class Solution {
         Arrays.sort(sumArr);
         int res = 0;
         for (int i = left; i <= right; i++) {
-            if (Integer.MAX_VALUE - sumArr[i - 1] > res) {
-                res = (int)(res % (Math.pow(10, 9) + 7)) + sumArr[i - 1];
-            } else {
-
-                res = (res + sumArr[i - 1]);
-            }
+            res = (res + sumArr[i - 1]) % mod;
         }
-        // res = (int) (res % (Math.pow(10, 9) + 7));
+        
         return res;
     }
 }
