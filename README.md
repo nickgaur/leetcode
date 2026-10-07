@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/nickgaur/leetcode/tree/master/0443-string-compression) |
 | [1089-duplicate-zeros](https://github.com/nickgaur/leetcode/tree/master/1089-duplicate-zeros) |
+| [2000-reverse-prefix-of-word](https://github.com/nickgaur/leetcode/tree/master/2000-reverse-prefix-of-word) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nickgaur/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/nickgaur/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/nickgaur/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/nickgaur/leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
+| [2000-reverse-prefix-of-word](https://github.com/nickgaur/leetcode/tree/master/2000-reverse-prefix-of-word) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/nickgaur/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/nickgaur/leetcode/tree/master/0242-valid-anagram) |
 | [0443-string-compression](https://github.com/nickgaur/leetcode/tree/master/0443-string-compression) |
+| [2000-reverse-prefix-of-word](https://github.com/nickgaur/leetcode/tree/master/2000-reverse-prefix-of-word) |
 | [3794-reverse-string-prefix](https://github.com/nickgaur/leetcode/tree/master/3794-reverse-string-prefix) |
 ## Trie
 |  |
