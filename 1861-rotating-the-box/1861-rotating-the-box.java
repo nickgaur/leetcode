@@ -12,9 +12,8 @@ class Solution {
                 if (boxGrid[i][j] == '#') {
                     j++;
                 } else if (boxGrid[i][j] == '.') {
-                    char temp = boxGrid[i][j];
-                    boxGrid[i][j] = boxGrid[i][k];
-                    boxGrid[i][k] = temp;
+                    boxGrid[i][j] = '#';
+                    boxGrid[i][k] = '.';
                     k++;
                     j++;
                 } else if (boxGrid[i][j] == '*') {
