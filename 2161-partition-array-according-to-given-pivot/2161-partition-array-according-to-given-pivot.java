@@ -1,27 +1,50 @@
 class Solution {
+    
     public int[] pivotArray(int[] nums, int pivot) {
         int n = nums.length;
-        int arr[] = new int[n];
-        int idx = 0;
-        for(int i = 0 ; i < n; i++){
+        int result[] = new int[n];
+        int j =n-1;
+        int left = 0;
+        int right = n-1;
+        int i = 0;
+
+        while(i < n){
             if(nums[i] < pivot){
-                arr[idx] = nums[i];
-                idx++;
+                result[left] = nums[i];
+                left++;
             }
-        }
-        for(int i = 0 ; i < n; i++){
-            if(nums[i] == pivot){
-                arr[idx] = nums[i];
-                idx++;
+            if(nums[j] > pivot){
+                result[right] = nums[j];
+                right--;
             }
+                i++;
+                j--;
         }
-        for(int i = 0 ; i < n; i++){
-            if(nums[i] > pivot){
-                arr[idx] = nums[i];
-                idx++;
-            }
+        for(i = left; i <= right; i++){
+            result[i] = pivot;
         }
+
+        // ======================
+        // int idx = 0;
+        // for(int i = 0 ; i < n; i++){
+        //     if(nums[i] < pivot){
+        //         arr[idx] = nums[i];
+        //         idx++;
+        //     }
+        // }
+        // for(int i = 0 ; i < n; i++){
+        //     if(nums[i] == pivot){
+        //         arr[idx] = nums[i];
+        //         idx++;
+        //     }
+        // }
+        // for(int i = 0 ; i < n; i++){
+        //     if(nums[i] > pivot){
+        //         arr[idx] = nums[i];
+        //         idx++;
+        //     }
+        // }
         
-        return arr;
+        return result;
     }
 }
