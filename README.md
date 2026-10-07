@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1089-duplicate-zeros](https://github.com/nickgaur/leetcode/tree/master/1089-duplicate-zeros) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nickgaur/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/nickgaur/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3794-reverse-string-prefix](https://github.com/nickgaur/leetcode/tree/master/3794-reverse-string-prefix) |
 ## Binary Search
 |  |
 | ------- |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/nickgaur/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/nickgaur/leetcode/tree/master/0242-valid-anagram) |
 | [0443-string-compression](https://github.com/nickgaur/leetcode/tree/master/0443-string-compression) |
+| [3794-reverse-string-prefix](https://github.com/nickgaur/leetcode/tree/master/3794-reverse-string-prefix) |
 ## Trie
 |  |
 | ------- |
