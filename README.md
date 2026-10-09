@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1572-matrix-diagonal-sum](https://github.com/nickgaur/leetcode/tree/master/1572-matrix-diagonal-sum) |
 | [1652-defuse-the-bomb](https://github.com/nickgaur/leetcode/tree/master/1652-defuse-the-bomb) |
 | [1861-rotating-the-box](https://github.com/nickgaur/leetcode/tree/master/1861-rotating-the-box) |
+| [2104-sum-of-subarray-ranges](https://github.com/nickgaur/leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nickgaur/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/nickgaur/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/nickgaur/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
@@ -132,11 +133,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
 | [2000-reverse-prefix-of-word](https://github.com/nickgaur/leetcode/tree/master/2000-reverse-prefix-of-word) |
+| [2104-sum-of-subarray-ranges](https://github.com/nickgaur/leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/nickgaur/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
+| [2104-sum-of-subarray-ranges](https://github.com/nickgaur/leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Sorting
 |  |
 | ------- |
