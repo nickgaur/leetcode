@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/nickgaur/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/nickgaur/leetcode/tree/master/0134-gas-station) |
+| [0238-product-of-array-except-self](https://github.com/nickgaur/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/nickgaur/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/nickgaur/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/nickgaur/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/nickgaur/leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 ## Bracket Sequences
