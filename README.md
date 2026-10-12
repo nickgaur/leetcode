@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/nickgaur/leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/nickgaur/leetcode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/nickgaur/leetcode/tree/master/0066-plus-one) |
+| [0258-add-digits](https://github.com/nickgaur/leetcode/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/nickgaur/leetcode/tree/master/0263-ugly-number) |
 | [0342-power-of-four](https://github.com/nickgaur/leetcode/tree/master/0342-power-of-four) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/nickgaur/leetcode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/nickgaur/leetcode/tree/master/0059-spiral-matrix-ii) |
+| [0258-add-digits](https://github.com/nickgaur/leetcode/tree/master/0258-add-digits) |
 | [0867-transpose-matrix](https://github.com/nickgaur/leetcode/tree/master/0867-transpose-matrix) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nickgaur/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -260,4 +262,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2778-sum-of-squares-of-special-elements](https://github.com/nickgaur/leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/nickgaur/leetcode/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
