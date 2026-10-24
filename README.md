@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/nickgaur/leetcode/tree/master/0263-ugly-number) |
 | [0342-power-of-four](https://github.com/nickgaur/leetcode/tree/master/0342-power-of-four) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
+| [2409-count-days-spent-together](https://github.com/nickgaur/leetcode/tree/master/2409-count-days-spent-together) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/nickgaur/leetcode/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
 ## Simulation
 |  |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/nickgaur/leetcode/tree/master/0242-valid-anagram) |
 | [0443-string-compression](https://github.com/nickgaur/leetcode/tree/master/0443-string-compression) |
 | [2000-reverse-prefix-of-word](https://github.com/nickgaur/leetcode/tree/master/2000-reverse-prefix-of-word) |
+| [2409-count-days-spent-together](https://github.com/nickgaur/leetcode/tree/master/2409-count-days-spent-together) |
 | [3794-reverse-string-prefix](https://github.com/nickgaur/leetcode/tree/master/3794-reverse-string-prefix) |
 ## Trie
 |  |
