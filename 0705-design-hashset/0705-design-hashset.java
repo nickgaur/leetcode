@@ -2,11 +2,11 @@ class MyHashSet {
     // Node head;
     int arr[] = new int[1000001];
     public MyHashSet() {
-        Arrays.fill(arr, -1);
+        // Arrays.fill(arr, -1);
     }
     
     public void add(int key) {
-        if(arr[key] < 0){
+        if(arr[key] == 0){
             arr[key]++;
             return;
         }
@@ -27,7 +27,7 @@ class MyHashSet {
     }
     
     public void remove(int key) {
-        if(arr[key] >= 0){
+        if(arr[key] > 0){
             arr[key]--;
         }
         // if(head == null){
@@ -49,7 +49,7 @@ class MyHashSet {
     }
     
     public boolean contains(int key) {
-        if(arr[key] >= 0){
+        if(arr[key] > 0){
             return true;
         }
         return false;
