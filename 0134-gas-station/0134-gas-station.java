@@ -22,22 +22,20 @@ class Solution {
 
         int total_petrol = 0;
         int total_dist = 0;
-        for (int i = 0; i < n; i++) {
-            total_petrol += petrol[i];
-            total_dist += dist[i];
-        }
-        if (total_petrol < total_dist) {
-            return -1;
-        }
         int curr_petrol = 0;
         int start = 0;
         for (int i = 0; i < n; i++) {
+            total_petrol += petrol[i];
+            total_dist += dist[i];
             curr_petrol = curr_petrol + petrol[i] - dist[i];
             if(curr_petrol < 0){
                 curr_petrol = 0;
                 start = i + 1;
             }
         }
+            if(total_petrol < total_dist){
+                return -1;
+            }
         return start;
     }
 }
