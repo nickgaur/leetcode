@@ -1,6 +1,6 @@
 class Solution {
-    public int canCompleteCircuit(int[] gas, int[] cost) {
-        // int n = petrol.length;
+    public int canCompleteCircuit(int[] petrol, int[] dist) {
+        int n = petrol.length;
         // int res = 0;
         // for (int i = 0; i < n; i++) {
         //     int rem = 0;
@@ -20,25 +20,24 @@ class Solution {
         // }
         // return -1;
 
-        int n = gas.length;
-        int totalGas = 0;
-        int totalCost = 0;
-        for(int i =0;i < n; i++){
-            totalGas += gas[i];
-            totalCost += cost[i];
+        int total_petrol = 0;
+        int total_dist = 0;
+        for (int i = 0; i < n; i++) {
+            total_petrol += petrol[i];
+            total_dist += dist[i];
         }
-        if(totalGas < totalCost){
+        if (total_petrol < total_dist) {
             return -1;
         }
-        int startingPoint = 0;
-        int currGas = 0;
+        int curr_petrol = 0;
+        int start = 0;
         for (int i = 0; i < n; i++) {
-            currGas = currGas + gas[i] - cost[i];
-            if(currGas < 0){
-                currGas = 0;
-                startingPoint = i + 1;
+            curr_petrol = curr_petrol + petrol[i] - dist[i];
+            if(curr_petrol < 0){
+                curr_petrol = 0;
+                start = i + 1;
             }
         }
-        return startingPoint;
+        return start;
     }
 }
