@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/nickgaur/leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/nickgaur/leetcode/tree/master/0134-gas-station) |
 | [0238-product-of-array-except-self](https://github.com/nickgaur/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/nickgaur/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/nickgaur/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/nickgaur/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/nickgaur/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/nickgaur/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/nickgaur/leetcode/tree/master/0239-sliding-window-maximum) |
 | [1652-defuse-the-bomb](https://github.com/nickgaur/leetcode/tree/master/1652-defuse-the-bomb) |
 ## Linked List
 |  |
@@ -297,13 +299,23 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/nickgaur/leetcode/tree/master/0239-sliding-window-maximum) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/nickgaur/leetcode/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/nickgaur/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0239-sliding-window-maximum](https://github.com/nickgaur/leetcode/tree/master/0239-sliding-window-maximum) |
 ## Hash Function
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/nickgaur/leetcode/tree/master/0705-design-hashset) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/nickgaur/leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/nickgaur/leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
