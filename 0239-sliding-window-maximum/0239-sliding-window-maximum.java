@@ -16,17 +16,16 @@ class Solution {
 
         // EFFICIENT APPROACH
         Deque<Integer> d = new LinkedList<>();
-        for (int i = 0; i < k; i++) {
-            while (!d.isEmpty() && arr[i] >= arr[d.peekLast()]) {
-                d.pollLast();
-            }
+        // for (int i = 0; i < k; i++) {
+        //     while (!d.isEmpty() && arr[i] >= arr[d.peekLast()]) {
+        //         d.pollLast();
+        //     }
             
-            d.offerLast(i);
+        //     d.offerLast(i);
             
-        }
+        // }
         int index =0;
-        for (int i = k; i < n; i++) {
-            result[index++] = arr[d.peekFirst()];
+        for (int i = 0; i < n; i++) {
             while (!d.isEmpty() && d.peekFirst() <= i - k) {
                 d.pollFirst();
             }
@@ -34,11 +33,15 @@ class Solution {
                 d.pollLast();
             }
             d.offerLast(i);
+            if(i >= k-1 ){
+            result[index++] = arr[d.peekFirst()];
+            }
+
         }
         // for(int t: d){
         //     System.out.println("T: " + t);
         // }
-        result[index] = arr[d.pollFirst()];
+        // result[index] = arr[d.pollFirst()];
         return result;
     }
 }
