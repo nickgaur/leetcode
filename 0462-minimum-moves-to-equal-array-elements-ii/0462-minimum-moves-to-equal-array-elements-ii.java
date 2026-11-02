@@ -5,9 +5,7 @@ class Solution {
         int mid = n/2;
         int res =0;
         for (int i = 0; i < n; i++) {
-            if(nums[i] != nums[mid]){
                 res += Math.abs(nums[i] - nums[mid]);
-            }
         }
         return res;
     }
