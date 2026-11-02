@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/nickgaur/leetcode/tree/master/0414-third-maximum-number) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/nickgaur/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/nickgaur/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/nickgaur/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/nickgaur/leetcode/tree/master/0496-next-greater-element-i) |
 | [0705-design-hashset](https://github.com/nickgaur/leetcode/tree/master/0705-design-hashset) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/nickgaur/leetcode/tree/master/0263-ugly-number) |
 | [0342-power-of-four](https://github.com/nickgaur/leetcode/tree/master/0342-power-of-four) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/nickgaur/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/nickgaur/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 | [2409-count-days-spent-together](https://github.com/nickgaur/leetcode/tree/master/2409-count-days-spent-together) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/nickgaur/leetcode/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/nickgaur/leetcode/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/nickgaur/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/nickgaur/leetcode/tree/master/0414-third-maximum-number) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/nickgaur/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/nickgaur/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/nickgaur/leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/nickgaur/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
