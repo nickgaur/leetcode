@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/nickgaur/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/nickgaur/leetcode/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/nickgaur/leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/nickgaur/leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1518-water-bottles](https://github.com/nickgaur/leetcode/tree/master/1518-water-bottles) |
 | [2409-count-days-spent-together](https://github.com/nickgaur/leetcode/tree/master/2409-count-days-spent-together) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/nickgaur/leetcode/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/nickgaur/leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Simulation
 |  |
 | ------- |
