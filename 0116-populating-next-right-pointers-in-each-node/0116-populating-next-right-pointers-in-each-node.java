@@ -41,12 +41,8 @@ class Solution {
                     if(curr.next != null){
                     curr.right.next = curr.next.left;
                     }
-                    else{
-                        curr.right.next = null;
-                    }
                     q.offer(curr.right);
                 }
-
             }
         }
         return root;
