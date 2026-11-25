@@ -33,9 +33,6 @@ class Solution {
             int n = q.size();
             for (int i = 0; i < n; i++) {
                 Node curr = q.poll();
-                if (i == n-1) {
-                    curr.next = null;
-                }
                 if (curr.left != null) {
                     curr.left.next = curr.right;
                     q.offer(curr.left);
